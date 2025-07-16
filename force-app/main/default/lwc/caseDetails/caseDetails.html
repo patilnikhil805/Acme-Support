@@ -6,6 +6,7 @@
                 <p><strong>Subject:</strong> {caseData.Subject.value}</p>
                 <p><strong>Status:</strong> {caseData.Status.value}</p>
                 <p><strong>Priority:</strong> {caseData.Priority.value}</p>
+                <p><strong>Registration:</strong> {caseData.Registration__c.value}</p>
             </template>
             <template if:true={error}>
                 <p class="slds-text-color_error">Error loading case data.</p>
